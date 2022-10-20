@@ -7,4 +7,6 @@ class PersonResource < Avo::BaseResource
 
   field :id, as: :id
   # add fields here
+  field :name, as: :text
+  field :photo, as: :file
 end
